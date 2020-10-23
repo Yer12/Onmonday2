@@ -160,6 +160,9 @@ button{
     left: 50px;
     top: 700px;
 }
+.leftside2{
+    display: none;
+}
 .leftside_word{
     position: absolute;
     transform: rotate(-90deg);
@@ -255,6 +258,81 @@ button{
     background-color: #717171;
 }
 .mySlidesp{
+}
+.blog{
+    padding-left: 270px;
+    margin-top: 150px;
+    padding-top: 1px;
+    background: url(././img/image.png);
+    padding-bottom: 8px;
+}
+.blog_text{
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #FFD600;
+}
+.blog_container{
+    display: flex;
+}
+.blog_left{
+
+}
+.blog_el{
+    background: #343434;
+    padding: 14px;
+    width: 318px;
+    padding-bottom: 0;
+    height: 239px;
+    margin-bottom: 20px;
+}
+.blog_el_photo{
+    background: #4e4d4d;
+    width: 96%;
+    height: 118px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.blog_name{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 18px;
+
+}
+.blog_read{
+    font-size: 18px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #8C8C8C;
+}
+.blog_center{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.blog_center .blog_el{
+    width: 366px;
+    height: 502px;
+}
+.blog_center .blog_el .blog_el_photo{
+    width: 318px;
+    height: 369px;
+}
+.blog_right .blog_el {
+    width: 260px;
+    height: 502px;
+}   
+.blog_right .blog_el .blog_el_photo{
+    width: 212px;
+    height: 369px;
 }
 
 
@@ -353,4 +431,26 @@ button{
         left:30px;
         top: 650px;
     }
+
+
+    .blog{
+        padding-left: 130px;
+
+    }
+    .blog_container{
+        flex-direction: column;
+    }
+    .blog_center{
+        margin: 0;
+    }
+    .blog_center .blog_el, .blog_right .blog_el{
+        width: 318px;  
+        height: 239px;
+    } 
+    .blog_right .blog_el .blog_el_photo,
+    .blog_center .blog_el .blog_el_photo{
+        width: 96%;
+        height: 118px;
+    }
+    
 }
